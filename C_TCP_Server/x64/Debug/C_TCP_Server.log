@@ -1,0 +1,8 @@
+﻿  Client.c
+  Server.c
+  Generating Code...
+C:\Users\Novik\Desktop\C_C++_Learn\C_TCP_Server\C_TCP_Server\Client.c(51,43): warning C4133: 'function': incompatible types - from 'sockaddr_in *' to 'const sockaddr *'
+C:\Users\Novik\Desktop\C_C++_Learn\C_TCP_Server\C_TCP_Server\Client.c(35,20): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
+  Server_Func.h
+C:\Users\Novik\Desktop\C_C++_Learn\C_TCP_Server\C_TCP_Server\Server_Func.h(19,16): warning C4018: '<': signed/unsigned mismatch
+  C_TCP_Server.vcxproj -> C:\Users\Novik\Desktop\C_C++_Learn\C_TCP_Server\x64\Debug\C_TCP_Server.exe
