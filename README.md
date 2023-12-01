@@ -20,4 +20,4 @@ After that, you can freely use the winsock libraries in VS
 * The simplest chat system where messages are sent from one user to the others who are present on the server.
 
 
-PS:This is just an example of connecting and sending or transferring data from one user to another. You can take this as an example, but don't rely on this code as the only true working version.
+PS: This is just an example of connecting and sending or transferring data from one user to another. You can take this as an example, but don't rely on this code as the only true working version.
