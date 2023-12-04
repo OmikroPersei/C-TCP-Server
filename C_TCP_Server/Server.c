@@ -67,7 +67,7 @@ int main()
 	time_desc.tv_sec = 1;																//	init time to 1 sec
 	server_addr.sin_family = AF_INET;
 	server_addr.sin_port = htons(2000);													//	init port 2000
-	int pton = inet_pton(AF_INET, "127.0.0.1", &server_addr.sin_addr.S_un.S_addr);		//	init server ip adress 127.0.0.1
+	inet_pton(AF_INET, "127.0.0.1", &server_addr.sin_addr.S_un.S_addr);					//	init server ip adress 127.0.0.1
 	memset(data, '\0', sizeof(data));
 	client_sock = malloc(sizeof(unsigned int));											// init one array element for client_sock
 

@@ -1,8 +1,28 @@
 ﻿  Client.c
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Client.c(35,16): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Client.c(44,38): warning C4133: 'function': incompatible types - from 'sockaddr_in *' to 'const sockaddr *'
   Server.c
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server_Func.h(22,16): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Server.c')
+  
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(20,16): warning C4047: 'function': 'unsigned int *' differs in levels of indirection from 'unsigned int'
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(20,16): warning C4024: 'malloc_array': different types for formal and actual parameter 1
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(23,4): warning C4022: 'memcpy': pointer mismatch for actual parameter 1
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(30,4): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(31,4): warning C4022: 'free': pointer mismatch for actual parameter 1
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(41,16): warning C4047: 'function': 'unsigned int *' differs in levels of indirection from 'unsigned int'
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(41,16): warning C4024: 'malloc_array': different types for formal and actual parameter 1
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(44,4): warning C4022: 'memcpy': pointer mismatch for actual parameter 1
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(51,4): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(52,4): warning C4022: 'free': pointer mismatch for actual parameter 1
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(83,16): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(92,24): warning C4133: 'function': incompatible types - from 'sockaddr_in *' to 'const sockaddr *'
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(117,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(134,40): warning C4133: 'function': incompatible types - from 'sockaddr_in *' to 'sockaddr *'
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(149,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(157,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\C_TCP_Server\Server.c(134,20): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
   Generating Code...
-C:\Users\Novik\Desktop\C_C++_Learn\C_TCP_Server\C_TCP_Server\Client.c(51,43): warning C4133: 'function': incompatible types - from 'sockaddr_in *' to 'const sockaddr *'
-C:\Users\Novik\Desktop\C_C++_Learn\C_TCP_Server\C_TCP_Server\Client.c(35,20): warning C4244: 'initializing': conversion from 'SOCKET' to 'int', possible loss of data
-  Server_Func.h
-C:\Users\Novik\Desktop\C_C++_Learn\C_TCP_Server\C_TCP_Server\Server_Func.h(19,16): warning C4018: '<': signed/unsigned mismatch
-  C_TCP_Server.vcxproj -> C:\Users\Novik\Desktop\C_C++_Learn\C_TCP_Server\x64\Debug\C_TCP_Server.exe
+  LINK : C:\Users\Novik\Documents\GitHub\C-TCP-Server\x64\Debug\C_TCP_Server.exe not found or not built by the last incremental link; performing full link
+Server.obj : error LNK2005: main already defined in Client.obj
+C:\Users\Novik\Documents\GitHub\C-TCP-Server\x64\Debug\C_TCP_Server.exe : fatal error LNK1169: one or more multiply defined symbols found
